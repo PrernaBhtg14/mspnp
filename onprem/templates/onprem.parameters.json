@@ -1,5 +1,5 @@
 {
-    "$schema": "https://raw.githubusercontent.com/mspnp/template-building-blocks/master/schemas/buildingBlocks.json",
+    "$schema": "https://raw.githubusercontent.com/PrernaBhtg14/mspnp/template-building-blocks/master/schemas/buildingBlocks.json",
     "contentVersion": "1.0.0.0",
     "parameters": {
         "buildingBlocks": {
@@ -29,8 +29,8 @@
                         "namePrefix": "sql",
                         "size": "Standard_DS3_v2",
                         "computerNamePrefix": "sql",
-                        "adminUsername": "adminUser",
-                        "adminPassword": "testPassw0rd!23",
+                        "adminUsername": "prerna",
+                        "adminPassword": "Welcome#",
                         "osType": "windows",
                         "imageReference": {
                             "publisher": "MicrosoftSQLServer",
@@ -113,8 +113,8 @@
                                 "protectedSettings": {
                                     "configurationArguments": {
                                         "SqlUserCredentials": {
-                                          "userName": ".\\adminUser",
-                                          "password": "testPassw0rd!23"
+                                          "userName": ".\\prerna",
+                                          "password": "Welcome#"
                                         }
                                     }
                                 }
